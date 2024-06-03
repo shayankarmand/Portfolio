@@ -12,6 +12,7 @@ header {
     color: #fff;
     padding: 1rem 0;
     text-align: center;
+    position: relative; /* Adjusted */
 }
 
 header h1 {
@@ -39,33 +40,29 @@ section {
     max-width: 800px;
     background: #fff;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0,);}
-
-    #skills li {
-        margin-bottom: 30px; 
-      }
-      
-      
-/* styles.css */
-
-/* Add this CSS to style the image */
-.profile-photo {
-    width: 150px; /* Adjust the size as needed */
-    height: 150px; /* Adjust the size as needed */
-    border-radius: 50%; /* Make the image circular */
-    position: absolute;
-    top: 10px; /* Adjust the distance from the top */
-    left: 20%; /* Adjust the distance from the left */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
+#skills li {
+    margin-bottom: 30px; 
+}
 
-#portfolio {padding: 2rem;
+.profile-photo {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    position: absolute;
+    top: 10px; 
+    left: 20%; 
+}
+
+#portfolio {
+    padding: 2rem;
     margin: 2rem auto;
     max-width: 800px;
     background: #fff;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0,);
-   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 h1 {
@@ -101,8 +98,9 @@ h1 {
 .work-item a:hover {
     background-color: #0056b3;
 }
+
 .work-item img {
-    max-width: 100%;
+    max-width: 100%; 
     height: auto;
     margin-bottom: 20px;
     border-radius: 10px;
