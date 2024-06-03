@@ -59,3 +59,52 @@ section {
 }
 
 
+#portfolio {padding: 2rem;
+    margin: 2rem auto;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0,);
+   
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.work-item {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.work-item h2 {
+    margin-top: 0;
+}
+
+.work-item p {
+    color: #555;
+}
+
+.work-item a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.work-item a:hover {
+    background-color: #0056b3;
+}
+.work-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
