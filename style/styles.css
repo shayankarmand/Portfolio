@@ -11,21 +11,40 @@ header {
     background: #333;
     color: #fff;
     padding: 1rem 0;
-    text-align: center;
-    position: relative; 
 }
 
-header h1 {
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.profile-photo {
+    width: 100px; /* Double the original size */
+    height: auto;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+header .portfolio-title {
+    flex-grow: 1;
+    text-align: center;
     margin: 0;
+    font-family: 'Roboto Slab', serif; /* Apply Roboto Slab font */
+    font-weight: 700;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    display: flex;
+    margin: 0;
 }
 
 nav ul li {
-    display: inline;
     margin: 0 10px;
 }
 
@@ -45,15 +64,6 @@ section {
 
 #skills li {
     margin-bottom: 30px; 
-}
-
-.profile-photo {
-    width: 150px; 
-    height: 150px; 
-    border-radius: 50%; 
-    position: absolute;
-    top: 10px; 
-    left: 20%; 
 }
 
 #portfolio {
@@ -105,4 +115,15 @@ h1 {
     margin-bottom: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-icon {
+    margin: 0 10px;
+    font-size: 2rem;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-icon:hover {
+    color: #0056b3;
 }
